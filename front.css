@@ -1,0 +1,682 @@
+/* HEADER */
+
+button{
+    background-color: rgb(59, 59, 200);
+    color: white;
+    border: 0;
+}
+header img{
+    width:150px;
+}
+header{
+    display: flex;
+    align-items: center;
+    text-align:center ;
+    justify-content: space-around;
+
+}
+
+/* BG */
+
+.bg{
+    background-image: url("assets/banner-3.jpg");
+    height: 500px;
+    width: 100%;
+    background-size:cover;
+
+}
+.bg div{
+    border:1px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    transform: translate(0px,150px);
+    margin-right: 1200px;
+    background-color: white;
+    opacity:0.6;
+}
+.bg div h1{
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+/* ICONS */
+
+a{
+    color: blueviolet;
+    text-decoration: none;
+}
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.icons i{
+    font-size: 40px;
+}
+
+/* WATCHES */
+
+.watch1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.watch1 div{
+    background-color: rgb(247, 244, 244);
+    border: 1px;
+    margin-top: 50px;
+    font-size: 15px;
+}
+.watch2{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.watch2 div{
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+}
+.watch2 button{
+    background-color: red;
+}
+.box1{
+    margin-top: -3.4cm;
+    padding-left: 1.5cm;
+    padding-right: 1.5cm;
+    height: 3.3cm;
+    margin-left: -4.3cm;
+}
+.box2{
+    margin-top: -3.4cm;
+    padding-left: 1.6cm;
+    padding-right: 1.6cm;
+    margin-right: -3cm;
+}
+
+/* VR BIG */
+
+.VR{
+    display: inline;
+    justify-content: space-evenly;
+}
+.img{
+    background-color: rgb(241, 239, 239);
+    border: 1px;
+    margin-top: 100px;
+    background-size: 10%;
+}
+.text{
+    margin-top: -480px;
+    padding-left: 800px;
+    font-size: 25px ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* VR SMALL  */
+
+.vr1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.vr1 div{
+ margin-top: 200px;
+}
+.vr2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.vr2 div{
+    background-color: rgb(249, 243, 243);
+}
+
+.vr2 button{
+    background-color: blue;
+    color: white;
+    transform: translate(190px,px);
+}
+
+.pb,.pb1,.pb2{
+    display: inline-flex;
+    width: 200px;
+    height: 20px;
+}
+
+/* AMBASSADOR */
+
+.amba{
+    background-image: url("assets/content-4.jpg");
+    height: 650px;
+    width: 100%;
+    background-size:cover;
+}
+.amba div{
+    border:1px;
+    margin-top: 60px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+    transform: translate(600px,250px);
+    margin-right: 1200px;
+    background-color: black;
+    opacity:0.8;
+}
+.amba div h1{
+    color: white;
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+    color: blueviolet;
+    text-decoration: none;
+}
+
+
+/* STARTER PLAN */
+
+.plan{
+    display: flex;
+    justify-content:center;
+    gap: 12px;
+    margin-top: 60px;
+}
+.plan img{
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+.p1,.p2,.p3{
+    border: 1px;
+    padding: 5px 10px 5px 10px;
+    box-shadow: 0px 5px 10px 0px #888888;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 10px;
+}
+.plan button{
+    background-color: blueviolet;
+    width: 100%;
+    min-height: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+/* OCCULUS VR BIG  */
+
+.ocvr{
+    text-align: center;
+    margin-top: 100px;
+    background-color: #f3f3f3;
+}
+.vrimg1{
+    height: 900px;
+    display: flex;
+}
+.vrimg1 div{
+    width: 100;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+    padding-left: 590px;
+}
+.vrimg1 img{
+    width: 1.5cm;
+}
+.vrimg1 img:hover{
+    box-shadow: 0 0 10px grey;
+}
+.us{
+    padding-right: 950px;
+    margin-top: -750px;
+}
+.vrb{
+    text-align: center;
+  }
+  .vrb h3{
+    font-size: 30px;
+    margin-top: 0cm;
+  }
+  .vrb p{
+    font-size: 10px;
+    margin-top: 1cm;
+  }
+  .vrbimage{
+    margin-left: 3.4cm;
+  }
+  .subimage img{
+          border: 1px solid white;
+          border-radius: 10px;
+      }
+      .subimage img:hover{
+          border: 1px solid #f1ebeb;
+          box-shadow: 4px 4px 10px grey;
+      }
+
+/* OCCULUS VR SMALL */
+
+      .vrsimage img{
+        border:1px solid #efefef;
+        border-radius: 4px;
+      }
+      .vrsimage img:hover{
+          border: 2px solid #dbd8db;
+          box-shadow: 4px 4px 10px grey;
+      }
+      .vrsmall{
+        margin-left: 3.5cm;
+      }
+      .vrsselect{
+          display: inline-flex;
+          justify-content: space-evenly;
+      }
+      .vrsselect p{
+          padding-left: 10px;
+          padding-right: 20px;
+      }
+          .clr{
+          display:flex;
+          margin: 15px;
+      }
+      .clr p:nth-child(1){
+        color: #c2c2c2;
+        padding-left: 25px;
+        padding-bottom: 9px;
+        border: 1px solid #cc00ff;
+        font-size: larger;
+        border-radius: 50px;
+        margin: 7px;
+        background-color:#c2c2c2;
+    }
+    .clr p:nth-child(2){
+        color: #ffbac6;
+        padding-left: 25px;
+        padding-bottom: 9px;
+        border: 1px solid #ffbac6;
+        font-size: larger;
+        border-radius: 50px;
+        margin: 7px;
+        background-color: #ffbac6;
+    }
+    .clr p:nth-child(3){
+        color:black;
+        padding-left: 25px;
+        padding-bottom: 25px;
+        border: 1px solid black;
+        font-size: larger;
+        border-radius: 50px;
+        margin: 7px;
+        background-color: black;
+    }
+    .clr select{
+        width: 100px;
+        height: 30px;
+    }
+    .clr .jos1{
+        margin-left: 20px;
+    }
+
+        .in{
+        border: 1px solid grey;
+        margin-left: 30px;
+        width: 90px;
+        height: 30px;
+    }
+    .in i,b{
+        border: 1px solid white;
+        padding: 5px;
+        text-align: center;
+    }
+    .country select{
+        height: 30px;
+        border-color: transparent;
+        padding: 5px;
+    }
+
+/* OCCULUS SMALL PRICE */
+
+
+    .occsmallprice{
+        margin-top: -8cm;
+        margin-left: 19cm;
+      }
+
+/* HERITAGE WATCHES */
+
+      .heritagewatch{
+        display: inline-flex;
+        justify-content: center;
+        margin-left: 3cm;
+        margin-top: 8cm;
+    }
+    .heritagewatch figcaption{
+        background-color: white;
+        margin-top: 0.5cm;
+    }
+    .heritagewatch figure{
+        background-color: white;
+        text-align: center;
+        border: 1px solid white;
+        margin: 5px;
+        border-radius: 5px;
+        box-shadow: 5px 5px 10px grey;
+    }
+    .heritagewatch a{
+      text-decoration: none;
+    }
+
+/* ACHIEVMENTS */
+
+    .box{
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20%;
+        text-align: center;
+        margin-left: 5cm;
+
+    }
+    .box div{
+        border: 1px solid white;
+        box-shadow: 5px 5px 10px grey;
+        padding: 15px;
+        margin: 20px;
+    }
+    .box .last{
+       margin-left: 50px;
+    }
+
+
+/* FOOOTER */
+
+    .footer {
+        margin-top: 100px;
+        background-color: rgb(245, 245, 245);
+        padding: 30px;
+    }
+
+    .foot1 {
+        display: grid;
+        grid-template-columns: 35% 35%;
+        justify-content: space-evenly;
+        margin-bottom: 30px;
+    }
+
+    .footp1 {
+        color: #8f9194;
+        margin-left: 20px;
+    }
+
+    #footer-i1 {
+        color: #8f9194;
+        transform: translate(26px, 0px);
+    }
+
+    .footer-input {
+        width: 235px;
+        padding: 5px;
+        font-size: 20px;
+        padding-left: 25px;
+        background-color: rgb(245, 245, 245);
+        border-color: rgb(245, 245, 245);
+        border-radius: 5px;
+    }
+    .footer-btn {
+        background-color: blueviolet;
+        width: 38px;
+        height: 36px;
+        padding-bottom: 1px;
+        font-size: 22px;
+        background-color: blueviolet;
+        margin-left: -5px;
+        border-radius: 5px;
+    }
+
+    .foot2 {
+        display: grid;
+        grid-template-columns: 35% 35%;
+        justify-content: space-around;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    .foot3 {
+        display: flex;
+        align-items: center;
+
+    }
+    .foot3 i:hover{
+        box-shadow: 10px 10px 20px blueviolet;
+    }
+    #footer-i2 {
+        color: blueviolet;
+        margin: 10px;
+    }
+
+    #footer-i2:hover {
+
+        transition-duration: 2s;
+        transition-timing-function: linear;
+        transform: rotate(360deg);
+    }
+    .foot4 {
+        display: flex;
+        align-items: center;
+    }
+
+    .foot5 {
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20%;
+        justify-content: space-evenly;
+    }
+
+
+
+    /* Medida query */
+
+    @media only screen and (min-width:320px) and (max-width:480px) {
+
+        body{
+            padding: 0;
+            margin: 0;
+        }
+
+/* HEADER */
+
+        .med1{
+             display:grid;
+             grid-template-columns: repeat(2,1fr);
+             justify-items: left;
+             margin-left: 60px;
+        }
+
+        .med1 i{
+            margin-left: 30px;
+            margin-top: 10px;
+
+        }
+
+        header option,select,#icon2,#icon3,form{
+            display: none;
+        }
+
+    /* BG */
+
+        .bg{
+            width:100.5%;
+            height: 50%;
+        }
+
+        .bg h1{
+            transform: translate(10px,-90px);
+        }
+/* ICONS */
+
+        .icons{
+            display:block;
+
+        }
+
+/* WATCHES  */
+
+        .watch1 {
+            display: grid;
+            grid-template-rows: repeat(2,1fr);
+            width: 36%;
+            height: 36%;
+
+        }
+
+        .watch2{
+            display: none;
+
+        }
+
+/* BIG VR */
+
+        .VR{
+            display:grid;
+            grid-template-rows: repeat(2,1fr);
+            background-size: contain;
+        }
+
+        .VR .text{
+            transform: translate(-50%,40%);
+        }
+
+
+
+/* SMALL VR */
+
+        .vr1{
+            display: grid;
+            grid-template-rows: repeat(3,1fr);
+        }
+
+        .vr2{
+            display: grid;
+            grid-template-rows: repeat(3,1fr);
+        }
+/* AMBASSADOR */
+
+/* .amba {
+background-size: contain;
+background-repeat: no-repeat;
+} */
+
+.amba{
+    width:100.5%;
+    height: 255px;
+   }
+   .amba div{
+    display: none;
+   }
+
+
+  /*starter  plan  */
+
+  .plan{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    width: 25%;
+    height: 25%;
+    margin-left: 100px;
+   }
+
+   /* occulus vr big */
+
+   .vrbimage{
+    width:100%;
+    height: 100%;
+   }
+   .subimage{
+    display: grid;
+    grid-template-rows: repeat(5,1fr);
+    justify-items: center;
+   }
+
+   /* OCCULUS VR SMALL */
+
+   .vrsimage{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+   }
+   .vrsselect,.srg,.in,.country{
+    display: grid;
+   }
+
+
+/* occulus vr price */
+
+.occsmallprice {
+    transform: translate(-590px,300px);
+
+}
+
+
+
+
+   /* HERITAGE WATCHES */
+   .heritagewatch{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    width: 30%;
+    height: 30%;
+   }
+
+   /* ACHIEVEMENTS */
+   .box {
+    display:block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transform: translate(-190px,0px);
+   }
+
+
+/* footer */
+
+   .footer {
+
+    width: 100%;
+    margin-right: 0%;
+    margin-left: 0%;
+    padding: 0%;
+}
+
+.footer-input {
+    width: 210px;
+}
+
+.foot1,
+.foot2,
+.foot5 {
+    display: block;
+    margin-bottom: 30px;
+}
+
+
+.foot5{
+    transform: translate(90px,0px);
+}
+
+.fdv {
+    margin-left: -13px;
+}
+
+.acc,
+.info,
+.ctg,
+.comm {
+    display: grid;
+    grid-template-rows: repeat(4,1fr);
+    margin:30%;
+
+    }
+
+
+
+
+
+    }
+
+
+
